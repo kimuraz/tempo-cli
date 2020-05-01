@@ -6,7 +6,17 @@
   "author": "Kimura <j.eduardokimura@icloud.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node --experimental-modules index.js"
+  },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "dayjs": "^1.8.26",
+    "ora": "^4.0.4",
+    "prompts": "^2.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
