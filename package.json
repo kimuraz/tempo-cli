@@ -1,0 +1,12 @@
+{
+  "name": "tempo-cli",
+  "version": "1.0.0",
+  "description": "Tempo CLI for filling atlasian's tempo in a more fast way",
+  "main": "index.js",
+  "author": "Kimura <j.eduardokimura@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
