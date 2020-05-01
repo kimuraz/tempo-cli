@@ -2,7 +2,13 @@ const inquirer = require('inquirer');
 
 const {info, error} = require('./lib/console');
 
-const {loadWorklogs, newWorklog, listToSend} = require('./lib/worklogs');
+const {
+  loadWorklogs,
+  newWorklog,
+  listToSend,
+  fillUpMonth,
+  sendWorklogs,
+} = require('./lib/worklogs');
 
 const init = async () => {
   info('Initializing...');
@@ -28,15 +34,11 @@ const main = async () => {
   const choices = [
     {
       label: 'Fill this month',
-      fn: () => {},
+      fn: fillUpMonth,
     },
     {
       label: 'Create new',
       fn: newWorklog,
-    },
-    {
-      label: 'Recurrent task',
-      fn: () => {},
     },
     {
       label: 'List worklogs to send',
@@ -44,7 +46,7 @@ const main = async () => {
     },
     {
       label: 'Send worklogs',
-      fn: () => {},
+      fn: sendWorklogs,
     },
     {
       label: 'Exit',
