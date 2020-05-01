@@ -14,8 +14,7 @@
     "chalk": "^4.0.0",
     "dayjs": "^1.8.26",
     "inquirer": "^7.1.0",
-    "ora": "^4.0.4",
-    "prompts": "^2.3.2"
+    "ora": "^4.0.4"
   },
   "devDependencies": {
     "prettier": "^2.0.5"
