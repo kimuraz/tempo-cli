@@ -1,3 +1,4 @@
 {
-  "token": "Generate a token on tempo settings"
+  "token": "Generate a token on tempo settings",
+  "issues": ["list", "of", "always in", "issues"]
 }
